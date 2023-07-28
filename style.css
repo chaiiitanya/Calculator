@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(82, 103, 119);
+}
+
+body p {
+  font-size: 25px;
+  padding: 2px;
+  color: white;
+  font-weight: 700;
+}
+
+.calculator {
+  border: 5px solid black;
+  padding: 15px;
+  border-style: ridge;
+  background: rgb(73, 73, 73);
+}
+
+input {
+  width: 300px;
+  padding: 20px;
+  border: 3px solid black;
+  color: black;
+
+  background-color: rgb(178, 184, 190);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+}
+
+input::placeholder {
+  color: black;
+}
+
+button {
+  border: 1.5px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 11px;
+  background-color: rgb(118, 123, 128);
+  color: white;
+  font-size: 25px;
+}
+
+.equalBtn {
+  background-color: brown;
+}
+
+.operator {
+  color: black;
+  background-color: rgb(178, 184, 190);
+}
